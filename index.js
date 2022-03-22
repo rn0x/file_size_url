@@ -11,8 +11,8 @@ export default async url => {
                 let req = url.startsWith('https://') ? https.get(url) : http.get(url);
                 req.once("response", async r => {
                     let c = parseInt(r.headers['content-length']);
-                    if (!isNaN(c)) res(formatBytes(c));
-                    else rej("Couldn't get file size");
+                    if (!isNaN(c) && r.statusCode === 200) res(formatBytes(c));
+                    else res("Couldn't get file size");
                 });
                 req.once("error", async e => rej(e));
 
