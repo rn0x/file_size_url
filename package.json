@@ -1,7 +1,7 @@
 {
   "name": "file_size_url",
-  "version": "1.0.3",
-  "description": "Get file size by URL without downloading it",
+  "version": "1.0.4",
+  "description": "Get file size from URL without downloading it. 0 dependencies. \nReturns Promise with 'B', 'KB', 'MB', 'GB', 'TB' on success.",
   "main": "index.js",
   "type": "module",
   "scripts": {

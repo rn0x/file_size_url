@@ -1,7 +1,16 @@
 import https from 'https';
 import http from 'http';
 
+/**
+ * @example file_size_url("https://example.com")
+ * @param {string} url - url of file
+ * @returns {Promise} resolves once complete, otherwise rejects
+ **/
+
 export default async url => {
+
+    if (!url) return Promise.reject(new Error('Invalid Url'));
+
     return new Promise(async (res, rej) => {
 
         try {
@@ -19,6 +28,7 @@ export default async url => {
             }
 
             else {
+                
                 throw 'error: The address should be http or https'
             }
 
