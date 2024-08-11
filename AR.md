@@ -27,7 +27,7 @@ npm install file_size_url
 ### الاستيراد واستخدام المكتبة
 
 ```javascript
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 fileSizeUrl("https://example.com/file.zip")
   .then(size => console.log(`حجم الملف: ${size}`))
@@ -40,7 +40,7 @@ fileSizeUrl("https://example.com/file.zip")
 
 ```javascript
 import { Telegraf } from 'telegraf';
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 const bot = new Telegraf('<YOUR_BOT_TOKEN>');
 
@@ -65,7 +65,7 @@ bot.launch();
 
 ```javascript
 import express from 'express';
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 const app = express();
 

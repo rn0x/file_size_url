@@ -1,6 +1,6 @@
 {
   "name": "file_size_url",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A lightweight Node.js library to fetch the file size from a remote URL without downloading the file. Zero dependencies. Returns a Promise with the file size formatted as 'B', 'KB', 'MB', 'GB', or 'TB'.",
   "main": "index.js",
   "type": "module",

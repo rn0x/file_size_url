@@ -30,7 +30,7 @@ Alternatively, if you have the source code, you can directly use the function in
 ### Importing and Using the Library
 
 ```javascript
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 fileSizeUrl("https://example.com/file.zip")
   .then(size => console.log(`File size: ${size}`))
@@ -43,7 +43,7 @@ You can integrate `file_size_url` with `telegraf` to fetch and display file size
 
 ```javascript
 import { Telegraf } from 'telegraf';
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 const bot = new Telegraf('<YOUR_BOT_TOKEN>');
 
@@ -68,7 +68,7 @@ You can use `file_size_url` in an `express.js` server to get file sizes via an A
 
 ```javascript
 import express from 'express';
-import fileSizeUrl from 'file_size_url.js';
+import fileSizeUrl from 'file_size_url';
 
 const app = express();
 
