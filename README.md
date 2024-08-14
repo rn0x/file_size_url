@@ -5,6 +5,9 @@
  [![NPM monthly downloads](https://img.shields.io/npm/dm/file_size_url.svg?style=flat)](https://npmjs.org/package/file_size_url) 
  
  [![NPM total downloads](https://img.shields.io/npm/dt/file_size_url.svg?style=flat)](https://npmjs.org/package/file_size_url) 
+
+![repository-open-graph-template](https://github.com/user-attachments/assets/e97584d7-9f41-43e5-8903-e08e39437a6e)
+
  
 
 `file_size_url` is a simple Node.js library for fetching the size of a file from a given URL using either `HTTP` or `HTTPS` protocols. It returns the file size in a human-readable format such as "1.23 MB".
